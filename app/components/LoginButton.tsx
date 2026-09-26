@@ -34,7 +34,9 @@ export default function LoginButton() {
         onChange={(e) => setPassword(e.target.value)}
       />
 
-      <button onClick={login}>
+      <button 
+        className="focus:outline-none focus:ring-2"
+        onClick={login}>
         Login
       </button>
     </div>
